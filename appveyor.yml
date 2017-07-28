@@ -18,5 +18,4 @@ artifacts:
 branches:
   # Whitelist
   only:
-    - develop
     - master

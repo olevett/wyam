@@ -2,11 +2,15 @@
     List<Tuple<string, string>> pages = new List<Tuple<string, string>>
     {
         Tuple.Create("Blog", Context.GetLink("blog")),
+        Tuple.Create("Concepts", Context.GetLink("concepts")),
+        Tuple.Create("Meetup", Context.GetLink("meetup")),
         Tuple.Create("Documentation", Context.GetLink("docs")),
-        Tuple.Create("Reference", Context.GetLink("dsl")),
-        Tuple.Create("Addins", Context.GetLink("addins")),
         Tuple.Create("API", Context.GetLink("api")),
-        Tuple.Create("<i class=\"fa fa-github\"></i> Source", "https://github.com/cake-build/cake")
+        Tuple.Create("Contribute", Context.GetLink("contribute")),
+        Tuple.Create("Donate", Context.GetLink("donate")),
+        Tuple.Create("Support", Context.GetLink("support")),
+
+        Tuple.Create("<i class=\"fa fa-github\"></i> Source", "https://github.com/reactiveui/reactiveui")
     };
     foreach(Tuple<string, string> page in pages)
     {
