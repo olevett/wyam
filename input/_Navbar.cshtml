@@ -8,9 +8,8 @@
         Tuple.Create("Contribute", Context.GetLink("contribute")),
         Tuple.Create("Donate", Context.GetLink("donate")),
         Tuple.Create("Support", Context.GetLink("support")),
-
-        Tuple.Create("<i class=\"fa fa-github\"></i> Source", "https://github.com/reactiveui/reactiveui")
     };
+
     foreach(Tuple<string, string> page in pages)
     {
         string active = Context.GetLink(Document).StartsWith(page.Item2) ? "active" : null;

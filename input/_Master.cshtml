@@ -79,11 +79,18 @@
         <div class="wrapper @withContainer">
             <!-- Header -->
             <header class="main-header">   
+
+                @{
+                    if (Model.Bool(DocsKeys.ShowInNavbar, true))
+                    {
+                        <text>
+                            <a href="@Context.GetLink("/")" class="logo">
+                                <img class="logo-lg" src="@Context.GetLink("/assets/img/logo.png")" />
+                            </a>   
+                        </text>
+                    }
+                }
                      
-                <a href="@Context.GetLink("/")" class="logo">
-                    <text></text>
-                </a>   
-                         
                 <nav class="navbar navbar-static-top" role="navigation">
                     <!-- Sidebar toggle button-->
                     @if(!Model.Bool("NoSidebar", false))

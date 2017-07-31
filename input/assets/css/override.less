@@ -1,3 +1,9 @@
+@import "bootstrap/variables.less";
+@import "bootstrap/mixins.less";
+@import "adminlte/variables.less";
+@import "adminlte/mixins.less";
+
+
 ul.share-buttons{
   list-style: none;
   padding: 0;
@@ -20,4 +26,116 @@ ul.share-buttons .sr-only {
 
 ul.share-buttons img{
   width: 32px;
+}
+
+// body.layout-boxed .top-banner,
+// .main-header,
+// .main-header .navbar,
+// .main-header .logo,
+// .main-header .logo:hover,
+// .layout-top-nav .main-header > .logo,
+// .layout-top-nav .main-header > .logo:hover {
+//   background-color: white;
+// }
+
+// .main-header .navbar .nav > li > a,
+// .main-header .navbar .nav > li > a:hover, .main-header .navbar .nav > li > a:active, .main-header .navbar .nav > li > a:focus, .main-header .navbar .nav .open > a, .main-header .navbar .nav .open > a:hover, .main-header .navbar .nav .open > a:focus, .main-header .navbar .nav > .active > a
+// {
+//   color: black;
+// }
+
+
+.jumbotron {
+  background: -webkit-gradient(linear,left bottom,right top,color-stop(0,#020031),color-stop(100%,#6d3353));
+  // padding-top: 0;
+  // padding-bottom: 0;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+// documentation sidebar
+.sidebar-menu {
+  li a:active {
+    color: #6144b3;
+  }
+
+  li a:hover {
+    color: black;
+    text-decoration: underline;
+  }
+}
+
+.main-sidebar
+{
+  padding-top: 128px;
+}
+
+
+// navigation logo
+.main-header .logo {
+  height: 128px;
+  padding: 10px;
+}
+
+body > div.wrapper > header > nav
+{
+  float: right;
+  margin-left: 128px !important;
+}
+
+.content-header
+{
+  padding-top: 32px;
+}
+
+// navigation background
+.top-banner,
+.main-header,
+.main-header .navbar,
+.main-header > .logo
+{
+  background-color: white !important;
+}
+
+// navigation items
+.main-header .navbar .nav > li > a {
+  color: #6144b3;
+}
+
+.main-header .navbar .nav > li > a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.main-header .navbar .nav > li > a:hover,
+.main-header .navbar .nav > li > a:active,
+.main-header .navbar .nav > li > a:focus,
+.main-header .navbar .nav .open > a,
+.main-header .navbar .nav .open > a:hover,
+.main-header .navbar .nav .open > a:focus,
+.main-header .navbar .nav > .active > a
+{
+    color: black;
+    background: none;
+}
+
+// navigation button (mobile)
+.navbar-toggle
+{
+  color: black;
+}
+
+// code samples
+.hljs
+{
+  background: white !important;
+  padding: 0 !important;
+}
+
+.code-sample pre {
+  padding: 0 !important;
+  background: white !important;
+  border: none;
 }
