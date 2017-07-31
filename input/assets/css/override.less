@@ -58,11 +58,11 @@ a:hover {
 // documentation sidebar
 .sidebar-menu {
   li a:active {
-    color: #6144b3;
+    color: #02A1D8;
   }
 
   li a:hover {
-    color: black;
+    color: #0479A3;
     text-decoration: underline;
   }
 }
@@ -101,12 +101,12 @@ body > div.wrapper > header > nav
 
 // navigation items
 .main-header .navbar .nav > li > a {
-  color: #6144b3;
+  color: #02A1D8;
 }
 
 .main-header .navbar .nav > li > a:hover {
   text-decoration: underline;
-  color: black;
+  color: #0479A3;
 }
 
 .main-header .navbar .nav > li > a:hover,
@@ -117,25 +117,31 @@ body > div.wrapper > header > nav
 .main-header .navbar .nav .open > a:focus,
 .main-header .navbar .nav > .active > a
 {
-    color: black;
+    color: #0479A3;
     background: none;
 }
 
 // navigation button (mobile)
 .navbar-toggle
 {
-  color: black;
+  color: #0479A3;
 }
 
 // code samples
 .hljs
 {
-  background: white !important;
-  padding: 0 !important;
+  background:rgba(0, 0, 0, 0.024);
+  padding: 8px !important;
 }
 
 .code-sample pre {
-  padding: 0 !important;
-  background: white !important;
+  padding: 8px !important;
+  background:rgba(0, 0, 0, 0.024);
   border: none;
+}
+
+// content header
+.content-header h1 {
+  background: #02a1d8 !important;
+  color: white;
 }

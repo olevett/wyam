@@ -14,20 +14,10 @@
 @gray-light:             lighten(@gray-base, 46.7%); // #777
 @gray-lighter:           lighten(@gray-base, 93.5%); // #eee
 
-@brand-black:           #000000;
-@brand-white:           #FFFFFF;
-@brand-50:              #F3E5F5;
-@brand-100:             #E1BEE7;
-@brand-200:             #CE93D8;
-@brand-300:             #BA68C8;
-@brand-400:             #AB47BC;
-@brand-500:             #9C27B0;
-@brand-600:             #8E24AA;
-@brand-700:             #7B1FA2;
-@brand-800:             #6A1B9A;
-@brand-900:             #4A148C;
 
-@brand-primary:         #db83ed;
+  
+@brand-primary:         #02A1D8;
+@brand-secondary:       #0479A3;
 @brand-success:         #5cb85c;
 @brand-info:            #5bc0de;
 @brand-warning:         #f0ad4e;
@@ -39,14 +29,14 @@
 //## Settings for some of the most global styles.
 
 //** Background color for `<body>`.
-@body-bg:               @brand-white;
+@body-bg:               white;
 //** Global text color on `<body>`.
-@text-color:            @brand-black;
+@text-color:            black;
 
 //** Global textual link color.
-@link-color:            #6144b3;
+@link-color:            @brand-primary;
 //** Link hover color set via `darken()` function.
-@link-hover-color:      #3b3255;
+@link-hover-color:      @brand-secondary;
 //** Link hover decoration.
 @link-hover-decoration: underline;
 
@@ -498,7 +488,7 @@
 //##
 
 @jumbotron-padding:              30px;
-@jumbotron-color:                @brand-white;
+@jumbotron-color:                white;
 @jumbotron-bg:                   @brand-primary;
 @jumbotron-heading-color:        #987d6b;
 @jumbotron-font-size:            @font-size-base;
