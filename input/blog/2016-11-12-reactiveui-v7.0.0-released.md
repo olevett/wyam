@@ -1,10 +1,10 @@
 ---
-title: ReactiveUI v7.1.0 released
+title: ReactiveUI v7.0.0 released
 category: Release Notes
 author: Geoffrey Huntley
 ---
 
-_Oh, hai!_ 
+_Oh, hai!_
 
 ![](https://media.giphy.com/media/nrYqOTU8hoAeY/giphy.gif)
 
